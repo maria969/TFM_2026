@@ -1,0 +1,53 @@
+paths:
+  input_csv: data/raw/jira_issues.csv
+  prepared_csv: data/processed/jira_issues_prepared.csv
+  reports_dir: reports
+
+mongodb:
+  uri: mongodb://localhost:27017/
+  database: JiraReposAnon
+  collection: JiraEcosystem
+  limit: 10000
+
+target:
+  resolution_time_column: time_to_resolution_days
+  target_column: late_resolution
+  threshold_method: percentile
+  threshold_percentile: 75
+  threshold_days: 30
+
+columns:
+  id: _id
+  key: key
+  created: created
+  resolutiondate: resolutiondate
+  project_key: project_key
+  project_name: project_name
+  issuetype: issuetype
+  priority: priority
+  status: status
+  summary: summary
+  description: description
+
+model:
+  test_size: 0.2
+  random_state: 42
+  categorical_features:
+    - project_key
+    - issuetype
+    - priority
+  numeric_features:
+    - summary_length
+    - description_length
+    - has_description
+    - created_year
+    - created_month
+  subgroup_features:
+    - project_key
+    - issuetype
+    - priority
+
+data:
+  raw: "data/raw/jira_issues.csv"
+  processed: "data/processed/jira_issues_prepared.csv"
+  modeling_dataset: "data/processed/jira_issues_prepared.csv"

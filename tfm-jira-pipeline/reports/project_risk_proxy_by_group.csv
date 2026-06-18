@@ -1,0 +1,193 @@
+scope,group_feature,group_value,metric,rows,mean,median,p75,p90
+group,project_key,PLVS,risk_time_proxy,442,0.3936651583710407,0.0,1.0,1.0
+group,project_key,PLVS,risk_effort_proxy_raw,442,720.3138406821371,398.8445417361111,1282.6998085243056,1776.6108553738425
+group,project_key,PLVS,risk_scope_proxy_raw,442,0.0,0.0,0.0,0.0
+group,project_key,PRETTY,risk_time_proxy,30,0.4,0.0,1.0,1.0
+group,project_key,PRETTY,risk_effort_proxy_raw,30,415.94882392245376,311.3344392418981,558.3107027141203,1026.6125589282408
+group,project_key,PRETTY,risk_scope_proxy_raw,30,0.0,0.0,0.0,0.0
+group,project_key,PTRUNNER,risk_time_proxy,39,0.23333333333333334,0.0,0.0,1.0
+group,project_key,PTRUNNER,risk_effort_proxy_raw,39,2180.6919474353044,558.0,1718.2751328993054,3500.711627722227
+group,project_key,PTRUNNER,risk_scope_proxy_raw,39,0.0,0.0,0.0,0.0
+group,project_key,RAB,risk_time_proxy,32,0.2222222222222222,0.0,0.0,1.0
+group,project_key,RAB,risk_effort_proxy_raw,32,2088.157438744213,460.6123613425925,1164.0,3005.819257039353
+group,project_key,RAB,risk_scope_proxy_raw,32,0.0,0.0,0.0,0.0
+group,project_key,REFAPP,risk_time_proxy,497,0.27586206896551724,0.0,1.0,1.0
+group,project_key,REFAPP,risk_effort_proxy_raw,497,489.6364442777498,164.2639026736111,455.119999849537,1325.0760782083335
+group,project_key,REFAPP,risk_scope_proxy_raw,497,0.0,0.0,0.0,0.0
+group,project_key,REST,risk_time_proxy,398,0.30933333333333335,0.0,1.0,1.0
+group,project_key,REST,risk_effort_proxy_raw,398,1376.7495265239972,451.39356337962965,1175.0682189930553,2096.844614700232
+group,project_key,REST,risk_scope_proxy_raw,398,0.0,0.0,0.0,0.0
+group,project_key,SAL,risk_time_proxy,365,0.4164305949008499,0.0,1.0,1.0
+group,project_key,SAL,risk_effort_proxy_raw,365,806.3306657145484,411.09529480324073,1132.964375023148,1866.0296901481483
+group,project_key,SAL,risk_scope_proxy_raw,365,0.0,0.0,0.0,0.0
+group,project_key,SCANNER,risk_time_proxy,106,0.5047619047619047,1.0,1.0,1.0
+group,project_key,SCANNER,risk_effort_proxy_raw,106,1385.7917459577002,702.6505034664352,1335.8402224421295,2667.010867690972
+group,project_key,SCANNER,risk_scope_proxy_raw,106,0.0,0.0,0.0,0.0
+group,project_key,SELENIUM,risk_time_proxy,297,0.5033783783783784,1.0,1.0,1.0
+group,project_key,SELENIUM,risk_effort_proxy_raw,297,1209.3362711340255,544.9734111689814,1836.9753141087965,3666.5217088564823
+group,project_key,SELENIUM,risk_scope_proxy_raw,297,0.0,0.0,0.0,0.0
+group,project_key,SNIP,risk_time_proxy,32,0.6111111111111112,1.0,1.0,1.0
+group,project_key,SNIP,risk_effort_proxy_raw,32,552.4267457895689,333.5,847.7245992881944,1185.3932006400466
+group,project_key,SNIP,risk_scope_proxy_raw,32,0.0,0.0,0.0,0.0
+group,project_key,SOY,risk_time_proxy,136,0.2781954887218045,0.0,1.0,1.0
+group,project_key,SOY,risk_effort_proxy_raw,136,1189.6159981667006,269.1992909548611,1049.4256202054398,2633.1308797627316
+group,project_key,SOY,risk_scope_proxy_raw,136,0.0,0.0,0.0,0.0
+group,project_key,SPEAKEASY,risk_time_proxy,149,0.044642857142857144,0.0,0.0,0.0
+group,project_key,SPEAKEASY,risk_effort_proxy_raw,149,230.73365184944382,86.0,227.0,370.55772143981494
+group,project_key,SPEAKEASY,risk_scope_proxy_raw,149,0.0,0.0,0.0,0.0
+group,project_key,SPFE,risk_time_proxy,764,0.18397085610200364,0.0,0.0,1.0
+group,project_key,SPFE,risk_effort_proxy_raw,764,384.815241796981,225.37628053819446,536.7430307899306,936.0544073437503
+group,project_key,SPFE,risk_scope_proxy_raw,764,0.0,0.0,0.0,0.0
+group,project_key,STRM,risk_time_proxy,2293,0.23015165031222123,0.0,0.0,1.0
+group,project_key,STRM,risk_effort_proxy_raw,2293,857.2555500277767,213.13544381944445,688.6423812615741,1494.8961162199075
+group,project_key,STRM,risk_scope_proxy_raw,2293,0.0,0.0,0.0,0.0
+group,project_key,SVN,risk_time_proxy,257,0.32075471698113206,0.0,1.0,1.0
+group,project_key,SVN,risk_effort_proxy_raw,257,1705.7990713402958,637.0956122453704,1455.2959514583333,4234.2
+group,project_key,SVN,risk_scope_proxy_raw,257,0.0,0.0,0.0,0.0
+group,project_key,UPM,risk_time_proxy,3763,0.21143473570658036,0.0,0.0,1.0
+group,project_key,UPM,risk_effort_proxy_raw,3763,868.2611001267734,230.16377125,559.7915230092592,1364.0381490810184
+group,project_key,UPM,risk_scope_proxy_raw,3763,0.0,0.0,0.0,0.0
+group,project_key,VCACHE,risk_time_proxy,105,0.03,0.0,0.0,0.0
+group,project_key,VCACHE,risk_effort_proxy_raw,105,438.6466730400133,269.0603928472222,447.96614159722225,815.6993781458333
+group,project_key,VCACHE,risk_scope_proxy_raw,105,0.0,0.0,0.0,0.0
+group,project_key,VHS,risk_time_proxy,33,0.2857142857142857,0.0,1.0,1.0
+group,project_key,VHS,risk_effort_proxy_raw,33,615.2582790554854,199.62467679398148,391.0995491203704,1913.935264881945
+group,project_key,VHS,risk_scope_proxy_raw,33,0.0,0.0,0.0,0.0
+group,project_key,VOTE,risk_time_proxy,62,0.23529411764705882,0.0,0.0,1.0
+group,project_key,VOTE,risk_effort_proxy_raw,62,2231.7162323362836,336.9799022916667,907.0289331915509,3912.5564531562495
+group,project_key,VOTE,risk_scope_proxy_raw,62,0.0,0.0,0.0,0.0
+group,project_key,WEBHOOKS,risk_time_proxy,142,0.09803921568627451,0.0,0.0,0.0
+group,project_key,WEBHOOKS,risk_effort_proxy_raw,142,940.2251426964333,177.92095327546298,439.0,1935.5077761875
+group,project_key,WEBHOOKS,risk_scope_proxy_raw,142,0.0,0.0,0.0,0.0
+group,project_key,WLC,risk_time_proxy,22,0.4,0.0,1.0,1.0
+group,project_key,WLC,risk_effort_proxy_raw,22,741.4446522548401,275.5,447.5066448726852,1159.5000000000002
+group,project_key,WLC,risk_scope_proxy_raw,22,0.0,0.0,0.0,0.0
+group,issuetype,Bug,risk_time_proxy,4622,0.23731884057971014,0.0,0.0,1.0
+group,issuetype,Bug,risk_effort_proxy_raw,4622,1276.9491036618774,325.98226832175925,898.5170842013889,1917.7687896516213
+group,issuetype,Bug,risk_scope_proxy_raw,4622,0.0,0.0,0.0,0.0
+group,issuetype,Documentation,risk_time_proxy,31,0.32,0.0,1.0,1.0
+group,issuetype,Documentation,risk_effort_proxy_raw,31,750.0000512141577,391.20063993055555,1045.9863584548611,1643.9831880324073
+group,issuetype,Documentation,risk_scope_proxy_raw,31,0.0,0.0,0.0,0.0
+group,issuetype,Epic,risk_time_proxy,49,0.6470588235294118,1.0,1.0,1.0
+group,issuetype,Epic,risk_effort_proxy_raw,49,516.3389384807256,296.4060440046296,716.1807658912037,1344.1120277384257
+group,issuetype,Epic,risk_scope_proxy_raw,49,0.0,0.0,0.0,0.0
+group,issuetype,Improvement,risk_time_proxy,1761,0.35520770620108366,0.0,1.0,1.0
+group,issuetype,Improvement,risk_effort_proxy_raw,1761,674.748636297302,301.9329209143519,824.4800089467592,1679.012459351852
+group,issuetype,Improvement,risk_scope_proxy_raw,1761,0.0,0.0,0.0,0.0
+group,issuetype,New Feature,risk_time_proxy,496,0.3674418604651163,0.0,1.0,1.0
+group,issuetype,New Feature,risk_effort_proxy_raw,496,709.5516880941747,319.9696238541667,820.8681338165509,1838.3259331307868
+group,issuetype,New Feature,risk_scope_proxy_raw,496,0.0,0.0,0.0,0.0
+group,issuetype,Story,risk_time_proxy,501,0.3370288248337029,0.0,1.0,1.0
+group,issuetype,Story,risk_effort_proxy_raw,501,477.9108674367007,182.89655659722223,651.0,1329.7450533217593
+group,issuetype,Story,risk_scope_proxy_raw,501,0.0,0.0,0.0,0.0
+group,issuetype,Sub-task,risk_time_proxy,840,0.07816377171215881,0.0,0.0,0.0
+group,issuetype,Sub-task,risk_effort_proxy_raw,840,215.40439850936946,28.552492806712962,170.70031263888887,437.7097905208335
+group,issuetype,Sub-task,risk_scope_proxy_raw,840,0.0,0.0,0.0,0.0
+group,issuetype,Support Request,risk_time_proxy,25,0.14285714285714285,0.0,0.0,1.0
+group,issuetype,Support Request,risk_effort_proxy_raw,25,3831.5536029638893,785.3993135069444,2534.425810798611,7814.616207798619
+group,issuetype,Support Request,risk_scope_proxy_raw,25,0.0,0.0,0.0,0.0
+group,issuetype,Task,risk_time_proxy,1672,0.19488188976377951,0.0,0.0,1.0
+group,issuetype,Task,risk_effort_proxy_raw,1672,403.43850850449394,177.70789750578706,435.1766432667824,1022.3976523750001
+group,issuetype,Task,risk_scope_proxy_raw,1672,0.0,0.0,0.0,0.0
+group,priority,Blocker,risk_time_proxy,353,0.09302325581395349,0.0,0.0,0.0
+group,priority,Blocker,risk_effort_proxy_raw,353,1380.8252403266315,331.0303890046296,827.029528900463,2204.4951704351884
+group,priority,Blocker,risk_scope_proxy_raw,353,0.0,0.0,0.0,0.0
+group,priority,Critical,risk_time_proxy,798,0.15151515151515152,0.0,0.0,1.0
+group,priority,Critical,risk_effort_proxy_raw,798,1956.5957876057182,365.93645663773145,831.0770933449074,1994.5934883541722
+group,priority,Critical,risk_scope_proxy_raw,798,0.0,0.0,0.0,0.0
+group,priority,Major,risk_time_proxy,7180,0.23733804475853945,0.0,0.0,1.0
+group,priority,Major,risk_effort_proxy_raw,7180,743.2706379756381,220.69955077546297,618.573833816551,1484.3498315509262
+group,priority,Major,risk_scope_proxy_raw,7180,0.0,0.0,0.0,0.0
+group,priority,Minor,risk_time_proxy,1466,0.40093603744149764,0.0,1.0,1.0
+group,priority,Minor,risk_effort_proxy_raw,1466,814.7951038510085,349.5151822974537,964.7406782783565,1742.1905938541668
+group,priority,Minor,risk_scope_proxy_raw,1466,0.0,0.0,0.0,0.0
+group,priority,Trivial,risk_time_proxy,202,0.35751295336787564,0.0,1.0,1.0
+group,priority,Trivial,risk_effort_proxy_raw,202,507.68136609701594,231.3567227372685,534.7159641145834,1338.6138822604166
+group,priority,Trivial,risk_scope_proxy_raw,202,0.0,0.0,0.0,0.0
+group,status,Closed,risk_time_proxy,8527,0.2541656888054447,0.0,1.0,1.0
+group,status,Closed,risk_effort_proxy_raw,8527,875.5206679525046,244.94381157407406,695.5489859722222,1587.1034569328704
+group,status,Closed,risk_scope_proxy_raw,8527,0.0,0.0,0.0,0.0
+group,status,Done,risk_time_proxy,115,0.06140350877192982,0.0,0.0,0.0
+group,status,Done,risk_effort_proxy_raw,115,393.29651506562,269.1921327777778,467.95753886574073,815.6993781458333
+group,status,Done,risk_scope_proxy_raw,115,0.0,0.0,0.0,0.0
+group,status,In Progress,risk_time_proxy,27,0.4,0.0,1.0,1.0
+group,status,In Progress,risk_effort_proxy_raw,27,556.0230305954218,136.0,401.60851828703704,905.6000000000009
+group,status,In Progress,risk_scope_proxy_raw,27,0.0,0.0,0.0,0.0
+group,status,Long Term Backlog,risk_time_proxy,44,0.0,0.0,0.0,0.0
+group,status,Long Term Backlog,risk_effort_proxy_raw,44,1118.641995112058,333.5,756.0,1952.7
+group,status,Long Term Backlog,risk_scope_proxy_raw,44,0.0,0.0,0.0,0.0
+group,status,Needs Triage,risk_time_proxy,72,,,,
+group,status,Needs Triage,risk_effort_proxy_raw,72,375.4583333333333,221.0,475.75,882.3999999999997
+group,status,Needs Triage,risk_scope_proxy_raw,72,0.0,0.0,0.0,0.0
+group,status,New,risk_time_proxy,164,,,,
+group,status,New,risk_effort_proxy_raw,164,970.9756097560976,324.5,657.25,1731.1000000000045
+group,status,New,risk_scope_proxy_raw,164,0.0,0.0,0.0,0.0
+group,status,Not Being Considered,risk_time_proxy,190,,,,
+group,status,Not Being Considered,risk_effort_proxy_raw,190,691.3157894736842,407.5,776.75,1292.3999999999999
+group,status,Not Being Considered,risk_scope_proxy_raw,190,0.0,0.0,0.0,0.0
+group,status,Resolved,risk_time_proxy,729,0.23045267489711935,0.0,0.0,1.0
+group,status,Resolved,risk_effort_proxy_raw,729,894.6654820209222,248.7227750925926,742.7511342939815,1539.3329884791667
+group,status,Resolved,risk_scope_proxy_raw,729,0.0,0.0,0.0,0.0
+group,status,Short Term Backlog,risk_time_proxy,22,,,,
+group,status,Short Term Backlog,risk_effort_proxy_raw,22,1227.4545454545455,479.0,862.5,2042.7000000000019
+group,status,Short Term Backlog,risk_scope_proxy_raw,22,0.0,0.0,0.0,0.0
+group,status,To Do,risk_time_proxy,30,,,,
+group,status,To Do,risk_effort_proxy_raw,30,2322.733333333333,395.0,1070.75,3809.3000000000084
+group,status,To Do,risk_scope_proxy_raw,30,0.0,0.0,0.0,0.0
+group,status,Under Triage,risk_time_proxy,22,,,,
+group,status,Under Triage,risk_effort_proxy_raw,22,640.4090909090909,425.0,642.25,1069.8000000000006
+group,status,Under Triage,risk_scope_proxy_raw,22,0.0,0.0,0.0,0.0
+group,status,Waiting for Release,risk_time_proxy,31,,,,
+group,status,Waiting for Release,risk_effort_proxy_raw,31,295.35483870967744,0.0,198.5,646.0
+group,status,Waiting for Release,risk_scope_proxy_raw,31,0.0,0.0,0.0,0.0
+group,created_year,2005,risk_time_proxy,39,0.5,0.5,1.0,1.0
+group,created_year,2005,risk_effort_proxy_raw,39,2098.0036607941593,851.4316292361111,1777.109399681713,5608.571593189818
+group,created_year,2005,risk_scope_proxy_raw,39,0.0,0.0,0.0,0.0
+group,created_year,2006,risk_time_proxy,39,0.4827586206896552,0.0,1.0,1.0
+group,created_year,2006,risk_effort_proxy_raw,39,1327.9650928234805,742.7511342939815,1476.2320496122686,3847.953418833334
+group,created_year,2006,risk_scope_proxy_raw,39,0.0,0.0,0.0,0.0
+group,created_year,2007,risk_time_proxy,53,0.20930232558139536,0.0,0.0,1.0
+group,created_year,2007,risk_effort_proxy_raw,53,1091.3598009331324,628.9442343055555,1455.2959514583333,3288.7489809189838
+group,created_year,2007,risk_scope_proxy_raw,53,0.0,0.0,0.0,0.0
+group,created_year,2008,risk_time_proxy,246,0.388646288209607,0.0,1.0,1.0
+group,created_year,2008,risk_effort_proxy_raw,246,1687.0692229067863,455.00963810185186,1365.974998304398,2752.5293157291662
+group,created_year,2008,risk_scope_proxy_raw,246,0.0,0.0,0.0,0.0
+group,created_year,2009,risk_time_proxy,409,0.28217821782178215,0.0,1.0,1.0
+group,created_year,2009,risk_effort_proxy_raw,409,628.0533783452187,183.1688621527778,392.22599452546297,1775.058537643518
+group,created_year,2009,risk_scope_proxy_raw,409,0.0,0.0,0.0,0.0
+group,created_year,2010,risk_time_proxy,1857,0.15243243243243243,0.0,0.0,1.0
+group,created_year,2010,risk_effort_proxy_raw,1857,444.8926247598987,141.05910672453703,343.04379069444445,1168.4628049166677
+group,created_year,2010,risk_scope_proxy_raw,1857,0.0,0.0,0.0,0.0
+group,created_year,2011,risk_time_proxy,2435,0.21583333333333332,0.0,0.0,1.0
+group,created_year,2011,risk_effort_proxy_raw,2435,767.5299343748907,206.84242260416664,589.9306158449074,1456.2992724328703
+group,created_year,2011,risk_scope_proxy_raw,2435,0.0,0.0,0.0,0.0
+group,created_year,2012,risk_time_proxy,1612,0.3076923076923077,0.0,1.0,1.0
+group,created_year,2012,risk_effort_proxy_raw,1612,1185.1239745676883,269.6881156365741,712.8623452690972,1615.1572242835655
+group,created_year,2012,risk_scope_proxy_raw,1612,0.0,0.0,0.0,0.0
+group,created_year,2013,risk_time_proxy,839,0.31210191082802546,0.0,1.0,1.0
+group,created_year,2013,risk_effort_proxy_raw,839,1088.9385243235306,380.05453982638886,1004.8695366087964,1683.320331379631
+group,created_year,2013,risk_scope_proxy_raw,839,0.0,0.0,0.0,0.0
+group,created_year,2014,risk_time_proxy,503,0.3893805309734513,0.0,1.0,1.0
+group,created_year,2014,risk_effort_proxy_raw,503,1043.5594580148968,418.8606370949074,830.9283342418981,1826.3641926342593
+group,created_year,2014,risk_scope_proxy_raw,503,0.0,0.0,0.0,0.0
+group,created_year,2015,risk_time_proxy,485,0.2937219730941704,0.0,1.0,1.0
+group,created_year,2015,risk_effort_proxy_raw,485,1207.3133365190433,413.2253454513889,1013.9122363194444,2553.47568794676
+group,created_year,2015,risk_scope_proxy_raw,485,0.0,0.0,0.0,0.0
+group,created_year,2016,risk_time_proxy,350,0.21019108280254778,0.0,0.0,1.0
+group,created_year,2016,risk_effort_proxy_raw,350,1235.4616087362433,456.00182021412036,1095.8769803472223,2680.7526040833354
+group,created_year,2016,risk_scope_proxy_raw,350,0.0,0.0,0.0,0.0
+group,created_year,2017,risk_time_proxy,107,0.3258426966292135,0.0,1.0,1.0
+group,created_year,2017,risk_effort_proxy_raw,107,1365.8365265788336,600.5960782291667,1436.3165991377314,2160.5715307361115
+group,created_year,2017,risk_scope_proxy_raw,107,0.0,0.0,0.0,0.0
+group,created_year,2018,risk_time_proxy,82,0.47761194029850745,0.0,1.0,1.0
+group,created_year,2018,risk_effort_proxy_raw,82,1681.0357462646793,731.8752677199075,1466.4809952893518,2938.6835328981506
+group,created_year,2018,risk_scope_proxy_raw,82,0.0,0.0,0.0,0.0
+group,created_year,2019,risk_time_proxy,151,0.411214953271028,0.0,1.0,1.0
+group,created_year,2019,risk_effort_proxy_raw,151,745.2312116472743,477.23181964120374,815.5929860590278,1340.9604452314816
+group,created_year,2019,risk_scope_proxy_raw,151,0.0,0.0,0.0,0.0
+group,created_year,2020,risk_time_proxy,223,0.379746835443038,0.0,1.0,1.0
+group,created_year,2020,risk_effort_proxy_raw,223,613.6611321852682,381.99610107638887,666.9462774363426,1093.0000000000002
+group,created_year,2020,risk_scope_proxy_raw,223,0.0,0.0,0.0,0.0
+group,created_year,2021,risk_time_proxy,557,0.08266666666666667,0.0,0.0,0.0
+group,created_year,2021,risk_effort_proxy_raw,557,382.10849919525896,200.89042579861112,478.0191704513889,958.2034870023148
+group,created_year,2021,risk_scope_proxy_raw,557,0.0,0.0,0.0,0.0

@@ -1,0 +1,4 @@
+scope,group_feature,group_value,metric,rows,mean,median,p75,p90
+global,__GLOBAL__,__GLOBAL__,risk_time_proxy,10000,0.250026678049301,0.0,0.5,1.0
+global,__GLOBAL__,__GLOBAL__,risk_effort_proxy_raw,10000,868.3523840867814,249.85859139467593,696.7098463946759,1574.0376355324083
+global,__GLOBAL__,__GLOBAL__,risk_scope_proxy_raw,10000,0.0,0.0,0.0,0.0

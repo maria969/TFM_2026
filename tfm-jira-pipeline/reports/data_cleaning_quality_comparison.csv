@@ -1,0 +1,3 @@
+scenario,rows,columns,total_nulls,mean_null_rate,target_null_rate,duplicate_count
+prepared_original,10000,21,4533,0.021585714285714288,0.0629,0
+cleaned_rules,10000,21,4532,0.021580952380952385,0.0629,0

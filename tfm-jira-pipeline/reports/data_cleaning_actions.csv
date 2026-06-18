@@ -1,0 +1,5 @@
+step,detail,rows_before,rows_after,rows_removed,affected_rows
+normalize_categorical_missing_values,Normaliza strings vacíos y valores nulos categóricos como __MISSING__.,,,,
+cap_numeric_outliers,Limita variables numéricas al percentil 99 para reducir el efecto de outliers extremos.,,,,
+remove_duplicate_keys,Elimina duplicados por clave si existe la columna key.,10000.0,10000.0,0.0,
+preserve_unresolved_target_nulls,"Mantiene filas sin target para análisis de calidad, aunque se excluyen del entrenamiento.",,,,629.0

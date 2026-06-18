@@ -1,0 +1,393 @@
+{
+  "generated_at_utc": "2026-06-03T12:06:51.285250+00:00",
+  "project_root": "/Users/maria/Desktop/MasterDIRTEC/TFM/datasets/ThePublicJiraDataset/tfm-jira-pipeline",
+  "python_version": "3.13.7 (main, Aug 14 2025, 11:12:11) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "platform": "macOS-26.5-arm64-arm-64bit-Mach-O",
+  "config": {
+    "paths": {
+      "input_csv": "data/raw/jira_issues.csv",
+      "prepared_csv": "data/processed/jira_issues_prepared.csv",
+      "reports_dir": "reports"
+    },
+    "mongodb": {
+      "uri": "mongodb://localhost:27017/",
+      "database": "JiraReposAnon",
+      "collection": "JiraEcosystem",
+      "limit": 10000
+    },
+    "target": {
+      "resolution_time_column": "time_to_resolution_days",
+      "target_column": "late_resolution",
+      "threshold_method": "percentile",
+      "threshold_percentile": 75,
+      "threshold_days": 30
+    },
+    "columns": {
+      "id": "_id",
+      "key": "key",
+      "created": "created",
+      "resolutiondate": "resolutiondate",
+      "project_key": "project_key",
+      "project_name": "project_name",
+      "issuetype": "issuetype",
+      "priority": "priority",
+      "status": "status",
+      "summary": "summary",
+      "description": "description"
+    },
+    "model": {
+      "test_size": 0.2,
+      "random_state": 42,
+      "categorical_features": [
+        "project_key",
+        "issuetype",
+        "priority"
+      ],
+      "numeric_features": [
+        "summary_length",
+        "description_length",
+        "has_description",
+        "created_year",
+        "created_month"
+      ],
+      "subgroup_features": [
+        "project_key",
+        "issuetype",
+        "priority"
+      ]
+    }
+  },
+  "scripts": [
+    {
+      "relative_path": "src/advanced_metrics.py",
+      "size_bytes": 9062,
+      "modified_utc": "2026-06-01T22:21:05+00:00",
+      "sha256": "83b28f6344552effaae499e1281ee62fe60997056ee8cf15fac06231c00ef2c4"
+    },
+    {
+      "relative_path": "src/audit_manifest.py",
+      "size_bytes": 5174,
+      "modified_utc": "2026-06-01T22:21:05+00:00",
+      "sha256": "5b67f3060e9363f1334381bcfbf4b1d5f0505b51767982d4643e207a131d7fd7"
+    },
+    {
+      "relative_path": "src/data_cleaning_experiment.py",
+      "size_bytes": 9420,
+      "modified_utc": "2026-06-01T22:21:05+00:00",
+      "sha256": "ec006610d53656b4fc423df14cd3f9915511900fe5eb48d39ec433a7ada5db24"
+    },
+    {
+      "relative_path": "src/degradation_experiments.py",
+      "size_bytes": 11476,
+      "modified_utc": "2026-05-28T13:46:53+00:00",
+      "sha256": "a7f5dc6ba013bc54e484f6f4619fe105e2fb9a9b9deb18b8b25b33bd96ec93a5"
+    },
+    {
+      "relative_path": "src/eda_quality.py",
+      "size_bytes": 2793,
+      "modified_utc": "2026-05-22T07:27:34+00:00",
+      "sha256": "77a7d55962ca24181bec58a2871e38c321486f1331b89d01b0d2045d6accf488"
+    },
+    {
+      "relative_path": "src/extract_from_mongodb.py",
+      "size_bytes": 2231,
+      "modified_utc": "2026-05-22T07:27:34+00:00",
+      "sha256": "ade9cae2ec1938868eb10d3ba5db288618108e281e66251b27698a7a33250b85"
+    },
+    {
+      "relative_path": "src/monitoring_kpis_export.py",
+      "size_bytes": 6914,
+      "modified_utc": "2026-06-03T12:06:36.942515+00:00",
+      "sha256": "7053ff3ad3f6d5a9390390d630f84aa5a6545767140ae45c02da9508ca4f7911"
+    },
+    {
+      "relative_path": "src/possible_worlds_sensitivity.py",
+      "size_bytes": 6907,
+      "modified_utc": "2026-06-01T22:21:05+00:00",
+      "sha256": "3174db712baa8fa19ee3cc2adf1ecd814e2758da1ef70721e8bbd593377e9b5b"
+    },
+    {
+      "relative_path": "src/prepare_dataset.py",
+      "size_bytes": 3112,
+      "modified_utc": "2026-05-22T07:27:34+00:00",
+      "sha256": "1d9c27ce0e9882467369499d1d5e37b101eec2ec92775a0bd1f5988bc7045d3b"
+    },
+    {
+      "relative_path": "src/retraining_experiment.py",
+      "size_bytes": 10115,
+      "modified_utc": "2026-05-28T14:17:43+00:00",
+      "sha256": "d87ee8a45d86e7f44a6319f2c2cc1783fc0411bca0bbf638c035a4aa42e965d4"
+    },
+    {
+      "relative_path": "src/stability_experiment.py",
+      "size_bytes": 5138,
+      "modified_utc": "2026-06-01T22:21:05+00:00",
+      "sha256": "86ebe8cdb0d8381bdb4c3997015ac708bce80f4f606fbb8cf1ecf5c5c007b248"
+    },
+    {
+      "relative_path": "src/subgroup_gap_analysis.py",
+      "size_bytes": 3076,
+      "modified_utc": "2026-06-01T22:21:05+00:00",
+      "sha256": "ad34f912be065058a9c9c17217cae354438c96a016130736b54140a3d46c76b2"
+    },
+    {
+      "relative_path": "src/temporal_drift_experiment.py",
+      "size_bytes": 11153,
+      "modified_utc": "2026-05-28T13:57:07+00:00",
+      "sha256": "6b4d84ec4695713564c3f2ff77720debcc3b81954616338012f2fc20751131fb"
+    },
+    {
+      "relative_path": "src/threshold_tuning.py",
+      "size_bytes": 5596,
+      "modified_utc": "2026-05-26T10:48:52+00:00",
+      "sha256": "a7154270b73f2c58947d00937f6a9cd52fdaf696fa7cb36e2434d6fd219015e5"
+    },
+    {
+      "relative_path": "src/train_baseline.py",
+      "size_bytes": 6967,
+      "modified_utc": "2026-05-22T07:27:34+00:00",
+      "sha256": "a815687ae39c32c6ee3fc5b6d2027ad33429d8ded346b88bc42ce220f9ffb065"
+    },
+    {
+      "relative_path": "src/utils.py",
+      "size_bytes": 768,
+      "modified_utc": "2026-05-22T07:27:34+00:00",
+      "sha256": "f20011feda0e35af573d0cf1c5484a0682bf47e3469361b60b8d558fa8ba8029"
+    }
+  ],
+  "configs": [
+    {
+      "relative_path": "config/config.yaml",
+      "size_bytes": 969,
+      "modified_utc": "2026-05-26T10:07:47.785844+00:00",
+      "sha256": "9b106c687fdb634dcbde3b2799bb1bd97628c6aae7113294ad13b38a568b99b2"
+    }
+  ],
+  "reports": [
+    {
+      "relative_path": "reports/advanced_model_metrics.csv",
+      "size_bytes": 978,
+      "modified_utc": "2026-06-03T12:00:45.012126+00:00",
+      "sha256": "260047fe00e8c7fd4bb1e4d19680e156e751503b8108df56a78bf02124b918c4"
+    },
+    {
+      "relative_path": "reports/calibration_bins.csv",
+      "size_bytes": 2377,
+      "modified_utc": "2026-06-03T12:00:45.012810+00:00",
+      "sha256": "f64ad38bbe66ec3a4f1d4c4ba78077e8f1f99e970086fd6f4a8fd6b6e717f7a3"
+    },
+    {
+      "relative_path": "reports/calibration_summary.csv",
+      "size_bytes": 135,
+      "modified_utc": "2026-05-26T10:18:33.778209+00:00",
+      "sha256": "bfe2c4bdf7a681718410d8ccc057035508d03732a588da4543ec4d35060604e1"
+    },
+    {
+      "relative_path": "reports/category_distributions.csv",
+      "size_bytes": 1922,
+      "modified_utc": "2026-05-26T10:14:05.590753+00:00",
+      "sha256": "0e5443b41be57ab6b0c8fe8d300bcb2af742766e203d565cd87b1cb34eb64ce2"
+    },
+    {
+      "relative_path": "reports/data_cleaning_actions.csv",
+      "size_bytes": 523,
+      "modified_utc": "2026-06-03T12:02:22.598693+00:00",
+      "sha256": "5f3c60720d6b309696d86a6791b8ada4d67db9acea1fc7ff113dac4ed014cbbf"
+    },
+    {
+      "relative_path": "reports/data_cleaning_metrics.csv",
+      "size_bytes": 986,
+      "modified_utc": "2026-06-03T12:02:23.950380+00:00",
+      "sha256": "863857e75d5722fada3a62272c56f67a0679cf05bb9b322d1285663226eee8d6"
+    },
+    {
+      "relative_path": "reports/data_cleaning_quality_comparison.csv",
+      "size_bytes": 202,
+      "modified_utc": "2026-06-03T12:02:22.598357+00:00",
+      "sha256": "3d3ef8beacd2ea9db19d6a108f2a84d6cbedfe1c9d4a8ed69350d2ad535aadfd"
+    },
+    {
+      "relative_path": "reports/data_quality_summary.csv",
+      "size_bytes": 937,
+      "modified_utc": "2026-05-26T10:14:05.580411+00:00",
+      "sha256": "1d831afaa7a6f4145b0b5e421860c1aff7eed51d9a755a4ff40e97f8e4b69fa8"
+    },
+    {
+      "relative_path": "reports/degradation_experiments.csv",
+      "size_bytes": 4237,
+      "modified_utc": "2026-05-28T13:53:28.961430+00:00",
+      "sha256": "15e3ed4b626bd03514049582bc906c0aa886a289fd13253f9ff098415392e40d"
+    },
+    {
+      "relative_path": "reports/degradation_summary.csv",
+      "size_bytes": 2208,
+      "modified_utc": "2026-05-28T13:53:28.962176+00:00",
+      "sha256": "dfdeea3305bd35442eb30c7821d7f11e934d371a2e35163f13ebb9f64a857544"
+    },
+    {
+      "relative_path": "reports/model_metrics.csv",
+      "size_bytes": 429,
+      "modified_utc": "2026-05-26T10:18:33.776839+00:00",
+      "sha256": "eb4ab2c262793a0cf4bcfcb9b96eed27621d36c3bdaa0ad21061004367fe12f6"
+    },
+    {
+      "relative_path": "reports/possible_worlds_predictions.csv",
+      "size_bytes": 270931,
+      "modified_utc": "2026-06-03T12:04:10.869911+00:00",
+      "sha256": "9f8166ae5ac3a228f067aff4deeb7efeca541a980da3bd652e634d84fa289546"
+    },
+    {
+      "relative_path": "reports/possible_worlds_sensitivity_aggregate.csv",
+      "size_bytes": 142,
+      "modified_utc": "2026-06-03T12:04:10.884814+00:00",
+      "sha256": "18757553a1b69c72d69f4936c0c5b669591e779a0665c16d1325418303093b34"
+    },
+    {
+      "relative_path": "reports/possible_worlds_sensitivity_summary.csv",
+      "size_bytes": 42394,
+      "modified_utc": "2026-06-03T12:04:10.883761+00:00",
+      "sha256": "d8e96b111a7ec0a9dbd3929f9a2671083e6b1f8677afc2a6e16ad1969545899d"
+    },
+    {
+      "relative_path": "reports/prediction_audit.csv",
+      "size_bytes": 351150,
+      "modified_utc": "2026-06-03T12:00:45.023150+00:00",
+      "sha256": "fdd5ac301e1565d6c432e48c0937dede845bbebd0c0b77e240a135e54ec14b56"
+    },
+    {
+      "relative_path": "reports/retraining_metrics.csv",
+      "size_bytes": 4197,
+      "modified_utc": "2026-05-28T14:57:39.555772+00:00",
+      "sha256": "41884191bef4b1f864356355c50863c1ed9972f98cb813b2a598a4865616e81d"
+    },
+    {
+      "relative_path": "reports/retraining_period_summary.csv",
+      "size_bytes": 537,
+      "modified_utc": "2026-05-28T14:57:35.952036+00:00",
+      "sha256": "27a8f412a354ee4d2ed83032aeb847b56781be4177bde0812d6a0ee186526503"
+    },
+    {
+      "relative_path": "reports/retraining_summary.csv",
+      "size_bytes": 1095,
+      "modified_utc": "2026-05-28T14:57:39.560661+00:00",
+      "sha256": "e4f990ea5aa7e834895a746268f5bda1cdfe6241f79e7f0697c3c7d19bc489b3"
+    },
+    {
+      "relative_path": "reports/stability_seed_metrics.csv",
+      "size_bytes": 1951,
+      "modified_utc": "2026-06-03T12:03:53.928610+00:00",
+      "sha256": "6256a005ac649aa584e151ba7a341ac43c6bc57b173ce2cddd169b663cb1de8c"
+    },
+    {
+      "relative_path": "reports/stability_seed_summary.csv",
+      "size_bytes": 944,
+      "modified_utc": "2026-06-03T12:03:53.932047+00:00",
+      "sha256": "b12c864516e35d5060ef8cdbce60290c3020ddbfe8491ef06cffe22122ef8b91"
+    },
+    {
+      "relative_path": "reports/subgroup_gap_metrics.csv",
+      "size_bytes": 23545,
+      "modified_utc": "2026-06-03T12:04:03.150115+00:00",
+      "sha256": "5d5fcc220529e08b3554c3ef006ea13ef7d1c0274d6c0e606c471a1a837dfffa"
+    },
+    {
+      "relative_path": "reports/subgroup_gap_summary.csv",
+      "size_bytes": 2147,
+      "modified_utc": "2026-06-03T12:04:03.153346+00:00",
+      "sha256": "c35426e42950c65608c715642c9e926d5470f7900e9a6484db48448e87e190cb"
+    },
+    {
+      "relative_path": "reports/subgroup_metrics.csv",
+      "size_bytes": 6651,
+      "modified_utc": "2026-05-26T10:18:33.777707+00:00",
+      "sha256": "ef3c14fd8a1364a013fd478f178c495fd4f13baba0e41e73b5899ec6b6c936e1"
+    },
+    {
+      "relative_path": "reports/temporal_categorical_shift.csv",
+      "size_bytes": 4118,
+      "modified_utc": "2026-05-28T13:59:20.012018+00:00",
+      "sha256": "4d4ed641e93858274d8bdae71d3805d2a470af027def75fea2df8e2dfddf4fff"
+    },
+    {
+      "relative_path": "reports/temporal_drift_metrics.csv",
+      "size_bytes": 1198,
+      "modified_utc": "2026-05-28T13:59:20.000847+00:00",
+      "sha256": "ba27d87febc061c3a3138a5efd9909a8f08e367d51bd56e532f1fe2d95bf0faf"
+    },
+    {
+      "relative_path": "reports/temporal_numeric_shift.csv",
+      "size_bytes": 573,
+      "modified_utc": "2026-05-28T13:59:20.005013+00:00",
+      "sha256": "0468e1728252af3453a8fedf6c94e678e808527e2588e50cda2b3b9f28e60712"
+    },
+    {
+      "relative_path": "reports/temporal_period_summary.csv",
+      "size_bytes": 246,
+      "modified_utc": "2026-05-28T13:59:20.012995+00:00",
+      "sha256": "60ac6bc13cdbdd924d7bfc2cde478d523ba25cde18fa28f6c2677f3e340eaaf5"
+    },
+    {
+      "relative_path": "reports/threshold_best_f1.csv",
+      "size_bytes": 517,
+      "modified_utc": "2026-05-28T13:39:52.787398+00:00",
+      "sha256": "2440abec06631e9cfdff4fffb2467bfe6a14974d6412513e477876a7304cc272"
+    },
+    {
+      "relative_path": "reports/threshold_metrics.csv",
+      "size_bytes": 6768,
+      "modified_utc": "2026-05-28T13:39:52.785378+00:00",
+      "sha256": "7cbfdfac1f1677b2beea3f174cb0658f707fb32268ca21cba964bbc471391ce5"
+    },
+    {
+      "relative_path": "reports/threshold_recall_60_minimum.csv",
+      "size_bytes": 517,
+      "modified_utc": "2026-05-28T13:39:52.787673+00:00",
+      "sha256": "2440abec06631e9cfdff4fffb2467bfe6a14974d6412513e477876a7304cc272"
+    },
+    {
+      "relative_path": "reports/time_distribution.csv",
+      "size_bytes": 2109,
+      "modified_utc": "2026-05-26T10:14:05.593897+00:00",
+      "sha256": "b4b9977cd27b5423d6aeea74f01e2f5318eb9ad34e126a6eecc559769065ac8a"
+    }
+  ],
+  "dependencies": [
+    "PyYAML==6.0.3",
+    "contourpy==1.3.3",
+    "cycler==0.12.1",
+    "dnspython==2.8.0",
+    "fonttools==4.63.0",
+    "joblib==1.5.3",
+    "kiwisolver==1.5.0",
+    "matplotlib==3.10.9",
+    "numpy==2.4.6",
+    "packaging==26.2",
+    "pandas==3.0.3",
+    "pillow==12.2.0",
+    "pymongo==4.17.0",
+    "pyparsing==3.3.2",
+    "python-dateutil==2.9.0.post0",
+    "scikit-learn==1.8.0",
+    "scipy==1.17.1",
+    "seaborn==0.13.2",
+    "six==1.17.0",
+    "threadpoolctl==3.6.0"
+  ],
+  "recommended_execution_order": [
+    "python3 src/extract_from_mongodb.py --config config/config.yaml",
+    "python3 src/prepare_dataset.py --config config/config.yaml",
+    "python3 src/eda_quality.py --config config/config.yaml",
+    "python3 src/train_baseline.py --config config/config.yaml",
+    "python3 src/threshold_tuning.py --config config/config.yaml",
+    "python3 src/advanced_metrics.py --config config/config.yaml",
+    "python3 src/degradation_experiments.py --config config/config.yaml",
+    "python3 src/data_cleaning_experiment.py --config config/config.yaml",
+    "python3 src/temporal_drift_experiment.py --config config/config.yaml",
+    "python3 src/retraining_experiment.py --config config/config.yaml",
+    "python3 src/stability_experiment.py --config config/config.yaml",
+    "python3 src/subgroup_gap_analysis.py --config config/config.yaml",
+    "python3 src/possible_worlds_sensitivity.py --config config/config.yaml",
+    "python3 src/monitoring_kpis_export.py --config config/config.yaml",
+    "python3 src/audit_manifest.py --config config/config.yaml"
+  ]
+}

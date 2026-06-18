@@ -1,0 +1,65 @@
+column,value,count,rate
+project_key,UPM,3763,0.3763
+project_key,STRM,2293,0.2293
+project_key,SPFE,764,0.0764
+project_key,REFAPP,497,0.0497
+project_key,PLVS,442,0.0442
+project_key,REST,398,0.0398
+project_key,SAL,365,0.0365
+project_key,SELENIUM,297,0.0297
+project_key,SVN,257,0.0257
+project_key,SPEAKEASY,149,0.0149
+project_key,WEBHOOKS,142,0.0142
+project_key,SOY,136,0.0136
+project_key,SCANNER,106,0.0106
+project_key,VCACHE,105,0.0105
+project_key,VOTE,62,0.0062
+project_key,PTRUNNER,39,0.0039
+project_key,VHS,33,0.0033
+project_key,SNIP,32,0.0032
+project_key,RAB,32,0.0032
+project_key,PRETTY,30,0.003
+project_key,WLC,22,0.0022
+project_key,QR,16,0.0016
+project_key,TOC,12,0.0012
+project_key,USGTRK,7,0.0007
+project_key,THREAD,1,0.0001
+issuetype,Bug,4622,0.4622
+issuetype,Improvement,1761,0.1761
+issuetype,Task,1672,0.1672
+issuetype,Sub-task,840,0.084
+issuetype,Story,501,0.0501
+issuetype,New Feature,496,0.0496
+issuetype,Epic,49,0.0049
+issuetype,Documentation,31,0.0031
+issuetype,Support Request,25,0.0025
+issuetype,Technical Debt,1,0.0001
+issuetype,Pricing Change,1,0.0001
+issuetype,Plugin Release Request,1,0.0001
+priority,Major,7180,0.718
+priority,Minor,1466,0.1466
+priority,Critical,798,0.0798
+priority,Blocker,353,0.0353
+priority,Trivial,202,0.0202
+priority,__NULL__,1,0.0001
+status,Closed,8527,0.8527
+status,Resolved,729,0.0729
+status,Not Being Considered,190,0.019
+status,New,164,0.0164
+status,Done,115,0.0115
+status,Needs Triage,72,0.0072
+status,Long Term Backlog,44,0.0044
+status,Waiting for Release,31,0.0031
+status,To Do,30,0.003
+status,In Progress,27,0.0027
+status,Short Term Backlog,22,0.0022
+status,Under Triage,22,0.0022
+status,Selected for Development,9,0.0009
+status,In Review,7,0.0007
+status,Reviewing Request,6,0.0006
+status,Under Review,3,0.0003
+status,Triage,1,0.0001
+status,Waiting for Dev Spt,1,0.0001
+late_resolution,0.0,7028,0.7028
+late_resolution,1.0,2343,0.2343
+late_resolution,__NULL__,629,0.0629

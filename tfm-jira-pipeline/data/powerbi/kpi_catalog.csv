@@ -1,0 +1,12 @@
+kpi,family,definition,interpretation
+precision,Rendimiento,Proporción de predicciones positivas que eran realmente positivas.,Mayor es mejor
+recall,Rendimiento,Proporción de positivos reales detectados por el modelo.,Mayor es mejor
+f1,Rendimiento,Media armónica entre precision y recall.,Mayor es mejor
+pr_auc,Rendimiento,Área bajo la curva precision-recall; útil con clases desbalanceadas.,Mayor es mejor
+roc_auc,Rendimiento,Capacidad de ranking entre positivos y negativos.,Mayor es mejor
+brier_score,Calibración,Error cuadrático medio de las probabilidades predichas.,Menor es mejor
+ece,Calibración,Expected Calibration Error; distancia entre probabilidad predicha y frecuencia observada.,Menor es mejor
+positive_rate_true,Datos,Proporción real de clase positiva.,Depende del contexto
+positive_rate_predicted,Modelo,Proporción de casos marcados como positivos por el modelo.,Depende del contexto
+delta_f1,Robustez,Cambio de F1 frente al escenario de referencia.,Cerca de cero o positivo
+delta_ece,Robustez,Cambio de ECE frente al escenario de referencia.,Cerca de cero o negativo
